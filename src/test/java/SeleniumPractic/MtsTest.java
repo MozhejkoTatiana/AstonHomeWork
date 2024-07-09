@@ -1,13 +1,13 @@
 package SeleniumPractic;
 
-import org.example.MoreAboutServicePage;
-import org.example.MtsHomePage;
+import page.MoreAboutServicePage;
+import page.MtsHomePage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class TestTest extends BaseTest {
+public class MtsTest extends BaseTest {
     //Задание 1
     @Test
     @DisplayName("Проверка названия блока 'Онлайн без комиссии'")
